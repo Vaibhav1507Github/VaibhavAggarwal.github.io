@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness By Vaibhav</title>
+    <style>
+        body {
+            color: white;
+            font-family: 'Baloo bhai', cursive;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('img/aerobics.jpg');
+            /* display: block; */
+            background-size: 100%;
+           
+            background-repeat: no-repeat;
+
+        }
+
+        .navbuttons {
+            color: aliceblue;
+
+        }
+
+        #leftimage {
+         /*   border: 2px solid red;   */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 25px;
+
+        }
+
+        #midbuttons {
+            display: block;
+            margin: 29px auto;
+         /*   border: 2px solid rgb(84, 243, 62);  */
+            width: 60%;
+
+        }
+
+        #rightbuttons {
+         /*   border: 2px solid rgb(211, 233, 16);     */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 25px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px 20px;
+          
+        }
+        .navbar li a:hover{
+            color: grey;
+        }
+
+        .btn {
+            font-family: 'Baloo bhai', cursive;
+            padding: 4px 14px;
+            color: white;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+           background-color:grey;
+
+        }
+
+        .container {
+            border: 2px solid white;
+            width: 33%;
+            padding: 75px;
+            margin: 106px 80px;;
+            border-radius: 20px;
+        }
+
+        .formGroup input {
+            font-family: 'Baloo bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 200px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 10px auto;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .formGroup button {
+            display: block;
+            float: left;
+        }
+
+        #Reset {
+            display: block;
+            float: right;
+
+        }
+        #leftimage img{
+            width: 120px;
+            height: 80px;
+            
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbuttons" id="leftimage">
+       <img src="img/dumbell logo.jpg" alt="">
+       <div>Vaibhav Fitness</div>
+    </div>
+    <div class="navbuttons" id="midbuttons">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">BMI Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+
+        </ul>
+    </div>
+    <div class="navbuttons" id="rightbuttons">
+        <form action="noaction.php">
+        <button class="btn">Type Us</button>
+        <button class="btn">Email Us</button>
+    </form>
+    </div>
+    <div class="container">
+        <h3> Join The Best Gym Of Roorkee Now </h3>
+        <form action="noaction.php">
+            <div class="formGroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="" placeholder="Enter Your Agenda">
+            </div>
+            <!-- <input type="Submit" class="btn">
+            <input type="reset" class="btn" id="Reset"> -->
+            <button class="btn">Submit</button>
+            <button class="btn" id="Reset">Reset</button>  
+            <!-- Input tag as well as button tag both can be used to generate Submit and Reset but only inside Form tag. -->
+
+        </form>
+    </div>
+</body>
+
+</html>
