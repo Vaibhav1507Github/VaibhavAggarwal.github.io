@@ -38,6 +38,30 @@ header{
     margin: 0 auto;
 }
 
+@media(min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media(min-width:1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
+
 header nav .left a{
     color:var(--pure);
     text-decoration: none;
@@ -64,7 +88,7 @@ header nav{
 
 .pic .left img{
     width: 400px;
-    height: 500px;
+    height: 550px;
 }
 
 .pic .right{
@@ -488,6 +512,7 @@ section.contact .btn-wrapper{
 
 
 
+
 /* .buttons {
     margin-top: 34px;
 }
@@ -509,7 +534,9 @@ section.contact .btn-wrapper{
 } */
 
 
-
+body{
+   background-color:rgb(225, 237, 234);
+}
 
 .contactForm{
     font-family: 'Fira sans' sans-serif;
